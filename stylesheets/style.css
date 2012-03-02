@@ -1,0 +1,25 @@
+/* Fonts
+-------------------- */
+body {
+	font-family: "ratio",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "apertura",sans-serif;
+}
+
+/* Full Articles
+-------------------- */
+.full-article h1 {
+	font-size: 1.9em;
+}
+
+/* Link Articles
+-------------------- */
+.link-article h1 {
+	font-size: 1.1em;
+}
+
+.link-article a.link-title {
+	font-style: italic;
+}
