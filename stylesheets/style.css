@@ -3,6 +3,7 @@
 body {
 	font-family: "ratio",sans-serif;
 	background: url(../images/bg.png);
+	border-top: 6px solid;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,24 +20,16 @@ header.main-header h1 {
 	font-size: 4rem;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 10px 0 0;
+	margin: 36px 0 6px;
 	padding: 0;
-	line-height: 1.1;
-}
-
-header.main-header h2 {
-	font-size: 1rem;
-	text-align: center;
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
+	line-height: 0;
 }
 
 /* Main Site Navigation
 -------------------- */
 nav.main-nav {
 	text-align: center;
-	margin: 12px 0 0;
+	margin: 6px 0 0;
 }
 
 nav.main-nav ul {
@@ -50,8 +43,12 @@ nav.main-nav li {
 	display: inline;
 }
 
-.active {
-	border-bottom: 2px solid;
+nav.main-nav li a {
+	color: #333;
+}
+
+nav.main-nav li a:hover {
+	color: red;
 }
 
 /* Content Area
@@ -74,11 +71,12 @@ article.full-article {
 }
 
 .full-article h1 {
-	font-size: 2.2rem;
+	font-size: 2rem;
+	text-transform: uppercase;
 }
 
 .full-article p {
-	color: #333;
+	color: #444;
 }
 
 /* Link Articles
@@ -89,10 +87,14 @@ article.full-article {
 	margin: 0;
 }
 
+.link-article h1 a {
+}
+
 .link-article p {
 	font-size: 1.4rem;
 	color: #666;
 }
 
-.link-article a.link-title {
+.link-article a.permalink {
+	margin-left: 1rem;
 }
