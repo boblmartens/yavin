@@ -8,6 +8,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "apertura",sans-serif;
+	color: #444;
 }
 
 p {
@@ -25,11 +26,19 @@ header.main-header h1 {
 	line-height: 0;
 }
 
+header.main-header h1 a {
+	color: #444;
+}
+
+header.main-header h1 a:hover {
+	color: #801E00;
+}
+
 /* Main Site Navigation
 -------------------- */
 nav.main-nav {
 	text-align: center;
-	margin: 6px 0 0;
+	margin: 12px 0 0;
 }
 
 nav.main-nav ul {
@@ -44,11 +53,11 @@ nav.main-nav li {
 }
 
 nav.main-nav li a {
-	color: #333;
+	color: #666;
 }
 
 nav.main-nav li a:hover {
-	color: red;
+	color: #801E00;
 }
 
 /* Content Area
@@ -88,6 +97,11 @@ article.full-article {
 }
 
 .link-article h1 a {
+	color: #5d0080;
+}
+
+.link-article h1 a:hover {
+	color: #801E00;
 }
 
 .link-article p {
