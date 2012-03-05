@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "apertura",sans-serif;
 }
 
+p {
+	font-size: 1.7rem;
+}
+
 /* Header
 -------------------- */
 header.main-header h1 {
@@ -50,10 +54,6 @@ nav.main-nav li {
 /* Content Area
 -------------------- */
 section.content {
-	background: white;
-	padding: 9px;
-	border-radius: 6px;
-	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,.5);
 	margin-bottom: 12px;
 }
 
