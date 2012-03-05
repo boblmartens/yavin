@@ -60,13 +60,17 @@ section.content {
 /* Full Articles
 -------------------- */
 .full-article h1 {
-	font-size: 1.9em;
+	font-size: 1.7em;
 }
 
 /* Link Articles
 -------------------- */
 .link-article h1 {
-	font-size: 1.2em;
+	font-size: 1.5rem;
+}
+
+.link-article p {
+	font-size: 1.4rem;
 }
 
 .link-article a.link-title {
