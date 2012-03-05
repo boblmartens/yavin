@@ -65,19 +65,24 @@ section.content {
 /* Full Articles
 -------------------- */
 .full-article h1 {
-	font-size: 2.3rem;
+	font-size: 2.2rem;
+}
+
+.full-article p {
+	color: #333;
 }
 
 /* Link Articles
 -------------------- */
 .link-article h1 {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	padding: 0;
 	margin: 0;
 }
 
 .link-article p {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
+	color: #666;
 }
 
 .link-article a.link-title {
